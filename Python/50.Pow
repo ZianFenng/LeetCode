@@ -21,11 +21,14 @@ class Solution(object):
                 x = x * x
         return result
         
+        # Below also work, just more slow for recursion
         if n == 0:
             return 1
         if n == 1:
             return x
         else:
-            x1 = self.myPow(x,n/2)
-            x2 = self.myPow(x,n-n/2)
-            return x1*x2
+            if n % 2 == 0:
+                return self.myPow(x*x,n/2)
+            else:
+                n = n - 1
+                return x * self.myPow(x*x,n/2)

@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		3A1BBD7A1E5C92B100219A46 /* 39.combinationSum.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = 39.combinationSum.py; path = Python/39.combinationSum.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		3A1BBD731E5C922F00219A46 = {
 			isa = PBXGroup;
 			children = (
+				3A1BBD7A1E5C92B100219A46 /* 39.combinationSum.py */,
 			);
 			sourceTree = "<group>";
 		};

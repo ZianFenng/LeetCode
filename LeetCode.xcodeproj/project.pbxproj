@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		3A02E3321ED0AEAB00E736FF /* 391.perfectRec.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = 391.perfectRec.py; path = Python/391.perfectRec.py; sourceTree = "<group>"; };
+		3A02E3341ED0AF0900E736FF /* 50.Pow.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = 50.Pow.py; path = Python/50.Pow.py; sourceTree = "<group>"; };
 		3A1BBD7A1E5C92B100219A46 /* 39.combinationSum.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = 39.combinationSum.py; path = Python/39.combinationSum.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -14,6 +16,8 @@
 		3A1BBD731E5C922F00219A46 = {
 			isa = PBXGroup;
 			children = (
+				3A02E3341ED0AF0900E736FF /* 50.Pow.py */,
+				3A02E3321ED0AEAB00E736FF /* 391.perfectRec.py */,
 				3A1BBD7A1E5C92B100219A46 /* 39.combinationSum.py */,
 			);
 			sourceTree = "<group>";
